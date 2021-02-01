@@ -2,4 +2,141 @@
 @font-face {
     font-family: 'Libre_Baskerville';
     src: url(fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
-} 
+}
+
+:root {
+    --liseret-icone-color: #54a0ff;
+    --bandeau-color: #222f3e;
+}
+
+body {
+  font-family: 'Libre_Baskerville', sans-serif, Helvetica;
+  color: var(--bandeau-color);
+  margin: 0;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+h4, h3 {
+    margin-top: 0;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+.fas {
+    color: var(--liseret-icone-color);
+    margin-right: 10px;
+}
+
+h2 .fas {
+    margin-right: 34px;
+    padding-bottom: 16px;
+}
+
+ol {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--bandeau-color);
+    border-bottom: 1px solid transparent;
+ }
+
+ a:hover {
+    border-bottom: 1px solid var(--bandeau-color);
+    transition:border-bottom .6s;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+#photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 380px;
+    flex-shrink: 0;
+    background-color: var(--liseret-icone-color);
+}
+
+#photo img {
+    border-radius: 50%;
+    border: 2px solid #2e86de;
+    width: 200px;
+    height: 200px;
+}
+
+#titre {
+    font-size: 1.3em;
+    margin: 0 60px;
+    flex: 1 1 auto;
+}
+
+#titre h1 {
+    margin-bottom: 0;
+}
+
+#titre h2 {
+    margin-top: 0;
+    text-transform: none;
+}
+
+.color-text {
+    color: var(--liseret-icone-color);
+}
+
+.underline {
+    border-bottom: 2px solid var(--liseret-icone-color);
+}
+
+/* Bloc */
+
+main {
+    display: flex;
+}
+
+/* Bloc-gauche */
+
+#bloc-gauche {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    flex-shrink: 0;
+    background-color: var(--liseret-icone-color);
+}
+
+#bloc-gauche h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: var(--bandeau-color);
+    color: var(--liseret-icone-color);
+    margin: 0;
+}
+
+address {
+    padding: 0 40px;
+}
+
+.texte-a-propos {
+    padding: 0 40px;
+}
+
+.texte-a-propos p {
+    text-align: justify;
+}
