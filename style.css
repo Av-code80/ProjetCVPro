@@ -140,3 +140,34 @@ address {
 .texte-a-propos p {
     text-align: justify;
 }
+
+/* Bloc-droite */
+
+#bloc-droite, #recommandations {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    margin: 0 50px;
+}
+
+#bloc-droite h2 {
+    border-bottom: 3px solid var(--liseret-icone-color);
+}
+
+/* bloc-formation - Experience */
+
+.bloc-formations, .bloc-experiences {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.bloc-dates {
+    display: flex;
+    align-items: flex-start;
+    flex-basis: 30%;
+}
+
+.bloc-details {
+    flex-basis: 70%;
+}
