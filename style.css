@@ -171,3 +171,79 @@ address {
 .bloc-details {
     flex-basis: 70%;
 }
+
+/* Footer */
+
+footer {
+    display: flex;
+}
+
+#loisirs {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--liseret-icone-color);
+    width: 380px;
+    flex-shrink: 0;
+}
+
+#loisirs h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: var(--bandeau-color);
+    color: var(--liseret-icone-color);
+    margin: 0;
+}
+
+.icone-loisirs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.icone-loisirs .fas {
+    color: var(--bandeau-color);
+}
+
+.cercle {
+    font-size: 35px;
+    border: 5px double var(--bandeau-color);
+    border-radius: 50%;
+    padding: 15px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.cercle .fas {
+    margin: 0;
+}
+
+#recommandations {
+    padding-bottom: 30px;
+}
+
+#recommandations h2 {
+    border-bottom: 3px solid var(--liseret-icone-color);
+}
+
+.bloc-recommandations {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.bloc-recommandations h4 {
+    text-transform: uppercase;
+    margin: 6px 0;
+}
+
+.bloc-recommandations p {
+    margin: 5px 0;
+}
+
+.recommandation-g {
+    width: 50%;
+}
