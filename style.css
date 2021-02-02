@@ -329,7 +329,8 @@ footer {
     }
 }
 
-@media all and (max-width:540px) {
+@media all and (max-width:540px) 
+{
     
     .bloc-formations, .bloc-experiences {
         flex-direction: column;
