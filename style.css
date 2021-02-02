@@ -247,3 +247,12 @@ footer {
 .recommandation-g {
     width: 50%;
 }
+
+/* Responsive Mqueri*/
+
+@media all and (max-width:1024px) {
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+}
