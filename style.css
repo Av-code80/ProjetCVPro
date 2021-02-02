@@ -1,25 +1,29 @@
 /* Général */
-@font-face {
-    font-family: 'Libre_Baskerville';
-    src: url(fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
-}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+
 
 :root {
-    --liseret-icone-color: #54a0ff;
+    --liseret-icone-color: #beaad2 ;
     --bandeau-color: #222f3e;
 }
 
 body {
-  font-family: 'Libre_Baskerville', sans-serif, Helvetica;
-  color: var(--bandeau-color);
+    font-family: "Raleway", sans-serif;
+    color: var(--bandeau-color);
   margin: 0;
 }
 
-h1, h2, h3 {
+h1 {
     text-transform: uppercase;
+    font-weight: 700;
+} 
+h2, h3 {
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 h4, h3 {
+    text-transform: uppercase;
     margin-top: 0;
 }
 
