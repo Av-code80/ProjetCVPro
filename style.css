@@ -328,3 +328,16 @@ footer {
         width: auto;
     }
 }
+
+@media all and (max-width:540px) {
+    
+    .bloc-formations, .bloc-experiences {
+        flex-direction: column;
+        border-bottom: 1px solid var(--liseret-icone-color);
+        padding-bottom: 15px;
+    }
+
+    ol li:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
