@@ -266,4 +266,13 @@ footer {
         text-align: center;
     }
 
+    main {
+        flex-direction: column;
+    }
+
+    #bloc-gauche {
+        width: 100%;
+        text-align: center;
+    }
+
 }
