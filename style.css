@@ -255,4 +255,15 @@ footer {
         flex-direction: column;
         height: auto;
     }
+
+    #photo {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    #titre {
+        margin: 0;
+        text-align: center;
+    }
+
 }
