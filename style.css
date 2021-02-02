@@ -275,4 +275,13 @@ footer {
         text-align: center;
     }
 
+
+    .contact p {
+        padding: 0;
+    }
+
+    #bloc-droite, #recommandations {
+        margin: 0;
+    }
+
 }
