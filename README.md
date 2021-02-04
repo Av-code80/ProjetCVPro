@@ -5,7 +5,7 @@ Developper les compétences en développement web en créant des CV professionne
 
 # [Maquette CV à coder](image/maquette.png)
 
-Scénario:
+# Scénario :
 
 Vous venez de vous lancer en tant que développeur web freelance et un client potentiel vous contacte sur LinkedIn. Il vous envoie le message suivant :
 
@@ -21,7 +21,7 @@ Pour éviter de payer un serveur, vous décidez d’héberger votre site sur Git
 
 Et pour ne pas le rendre trop générique et faire en sorte qu’il vous représente, vous choisissez de lui ajouter un peu de personnalité, en utilisant des couleurs Material Design et des icônes Font Awesome.
 
-Compétences évaluées
+# Compétences évaluées
 
 Intégrer du contenu conformément à une maquette
 Préparer des éléments graphiques et textuels à intégrer à une page web
@@ -31,11 +31,12 @@ Définir la structure d'une page web à partir d'une maquette
 Assurer la conformité d'une page web aux standards HTML et CSS
 Site web statique :
 
-# Technologies utilisées
+# Technologies développé
 
-HTML5
-CSS3
+* HTML5
+  
+* CSS3
 
-Résultat
+# Résultat
 
 [Vous povez consulter mon site CV](https://av-code80.github.io/ProjetCVPro/)
